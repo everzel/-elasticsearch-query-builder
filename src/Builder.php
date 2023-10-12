@@ -6,7 +6,7 @@ use Elasticsearch\Client;
 use Everzel\ElasticsearchQueryBuilder\Aggregations\Aggregation;
 use Everzel\ElasticsearchQueryBuilder\Queries\BoolQuery;
 use Everzel\ElasticsearchQueryBuilder\Queries\Query;
-use Everzel\ElasticsearchQueryBuilder\Sorts\Sort;
+use Everzel\ElasticsearchQueryBuilder\Sorts\SortInterface as Sort;
 
 class Builder
 {

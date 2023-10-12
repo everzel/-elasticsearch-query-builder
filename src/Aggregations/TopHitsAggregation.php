@@ -2,7 +2,7 @@
 
 namespace Everzel\ElasticsearchQueryBuilder\Aggregations;
 
-use Everzel\ElasticsearchQueryBuilder\Sorts\Sort;
+use Everzel\ElasticsearchQueryBuilder\Sorts\SortInterface as Sort;
 
 class TopHitsAggregation extends Aggregation
 {
